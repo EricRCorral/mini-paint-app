@@ -4,4 +4,4 @@ Mini app to paint, it have 4500 cell and you can select the color with the right
 
 ![Example image](/assets/example_paint.png "Example image")
 
-**With ♥ and </> by Eric Corral**
+**MAde with ♥ and </> by Eric Corral**
