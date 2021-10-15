@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+input {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  animation: fadeIn ease 0.5s;
+}
+
+div {
+  width: 1%;
+  height: 1vw;
+  box-shadow: inset 0px 0px 0px 0.1px #000000bf;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
